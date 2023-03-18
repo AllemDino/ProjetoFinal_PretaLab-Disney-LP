@@ -22,22 +22,22 @@ function calcularMedia() {
 
   let media  = (nota1 + note2 + note3 + note4) / 4
    if (media === 0) {
-      mensagem = " Oque rolou aqui? Infelizmente você zerou a prova :'( "
+      mensagem = "Infelizmente você zerou a prova :( "
    }
     else if (media >= 0.1 && media <= 3) {
-      mensagem = `Caramba, deu ruim, você obteve media ${media} ! Como diz Raul Seixas: Tente outra vez! `
+      mensagem = `Caramba, deu ruim, você obteve media ${media} ! Estude mais e tente novamente! `
    }
     else if (media >= 3.1 && media <= 5.9) {
-      mensagem = `Você obteve media ${media}! Falta pouco para a média, que a força esteja com você!`
+      mensagem = `Você obteve media ${media}! Falta pouco para a média.`
    }
     else if (media >= 6 && media <= 7) {
       mensagem = `Você está na média com ${media}`
     }
     else if (media >= 7.1 && media <= 9.9) {
-      mensagem = `CHOCADA, Que Notão! Sua média é ${media}!`
+      mensagem = `Notão! Sua média é ${media}!`
     }
     else if (media === 10){
-      mensagem = "Hoje é seu aniversário? Porque você está de parabéns! Sua média é 10!!! ARRASOUU"
+      mensagem = "Hoje é seu aniversário? Porque você está de parabéns! Sua média é 10!!!"
     }
     else {
       mensagem = "Notas Inválidas"
